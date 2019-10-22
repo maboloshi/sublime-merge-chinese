@@ -1,22 +1,25 @@
 [
     {
-        "description": "初始化 $submodule_name",
+        "caption": "初始化子模块",
+        "description": "初始化子模块: '$submodule_name'",
         "command": "initialize_submodule",
         "args": {"submodule_path": "$submodule_path", "submodule_name": "$submodule_name"}
     },
     {
         "caption": "打开子模块",
-        "description": "Open $submodule_name",
+        "description": "打开子模块: '$submodule_name'",
         "command": "open_submodule",
         "args": {"submodule_path": "$submodule_path", }
     },
     {
-        "description": "更新 $submodule_name",
+        "caption": "更新子模块",
+        "description": "更新子模块: '$submodule_name'",
         "command": "update_submodule",
         "args": {"submodule_path": "$submodule_path"}
     },
     {
-        "description": "同步 $submodule_name",
+        "caption": "同步子模块",
+        "description": "同步子模块: '$submodule_name'",
         "command": "sync_submodule",
         "args": {"submodule_path": "$submodule_path"}
     },
