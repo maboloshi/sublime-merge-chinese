@@ -1,17 +1,17 @@
 [
-    {
-        "description": "删除标签: '$tag_name'",
-        "command": "delete_tag",
-        "args": {"ref": "$ref"}
-    },
-    {
-        "command": "show_command_palette",
-        "args":
-        {
-            "command": "push_tag",
-            "args": { "ref": "$ref" },
-            "description": "推送标签: '$tag_name'",
-        },
-    },
-    { "caption": "-", "id": "end" }
+	{
+		"description": "删除标签: '$tag_name'",
+		"command": "delete_tag",
+		"args": {"ref": "$ref"}
+	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "push_tag",
+			"args": { "ref": "$ref" },
+			"description": "推送标签: '$tag_name'",
+		},
+	},
+	{ "caption": "-", "id": "end" }
 ]

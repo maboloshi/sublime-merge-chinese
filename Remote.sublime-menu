@@ -1,16 +1,16 @@
 [
-    {
-        "command": "show_command_palette",
-        "args":
-        {
-            "command": "fetch",
-            "args": { "remote": "$remote" },
-            "description": "获取远程分支: '$remote'",
-        },
-    },
-    {
-        "description": "删除远程分支: '$remote'",
-        "command": "delete_remote",
-        "args": {"remote": "$remote"}
-    },
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "fetch",
+			"args": { "remote": "$remote" },
+			"description": "获取远程分支: '$remote'",
+		},
+	},
+	{
+		"description": "删除远程分支: '$remote'",
+		"command": "delete_remote",
+		"args": {"remote": "$remote"}
+	},
 ]

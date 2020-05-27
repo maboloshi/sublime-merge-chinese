@@ -1,15 +1,15 @@
 [
-    {
-        "caption": "取回 Stash",
-        "command": "pop_stash", "args": {"stash": "$stash"}
-    },
-    {
-        "caption": "应用 Stash",
-        "command": "apply_stash", "args": {"stash": "$stash"}
-    },
-    {
-        "caption": "丢弃 Stash",
-        "command": "drop_stash", "args": {"stash": "$stash"}
-    },
-    { "caption": "-", "id": "end" }
+	{
+		"caption": "取回 Stash",
+		"command": "pop_stash", "args": {"stash": "$stash"}
+	},
+	{
+		"caption": "应用 Stash",
+		"command": "apply_stash", "args": {"stash": "$stash"}
+	},
+	{
+		"caption": "丢弃 Stash",
+		"command": "drop_stash", "args": {"stash": "$stash"}
+	},
+	{ "caption": "-", "id": "end" }
 ]

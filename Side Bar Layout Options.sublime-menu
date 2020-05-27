@@ -1,0 +1,18 @@
+[
+	{
+		"caption": "One Column",
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "tabs" }
+	},
+		{
+		"caption": "Two Columns, Files on Left",
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "commit_graph_as_column" }
+	},
+	{
+		"caption": "Two Columns, Files on Right",
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "locations_as_column" }
+	},
+	{
+		"caption": "Three Columns",
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "columns" }
+	},
+]

@@ -1,9 +1,9 @@
 [
-    {
-        "caption": "创建标签…",
-        "command": "show_command_palette", "args":
-        {
-            "command": "create_tag",
-        }
-    },
+	{
+		"caption": "创建标签…",
+		"command": "show_command_palette", "args":
+		{
+			"command": "create_tag",
+		}
+	},
 ]
