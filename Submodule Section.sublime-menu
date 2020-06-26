@@ -7,7 +7,7 @@
 		}
 	},
 	{
-		"caption": "Initialize All Submodules",
+		"caption": "初始化所有子模块",
 		"command": "update_submodule",
 		"args": { "recursive": true, "initialize": true }
 	},

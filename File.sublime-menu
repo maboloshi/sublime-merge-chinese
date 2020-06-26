@@ -4,7 +4,7 @@
 		"command": "search", "args": { "query": "file:\"$path\"" }
 	},
 	{
-		"caption": "Blame",
+		"caption": "追溯",
 		"command": "blame", "args": { "path": "$path" }
 	},
 	{ "caption": "-" },

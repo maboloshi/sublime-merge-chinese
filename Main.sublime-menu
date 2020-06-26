@@ -14,7 +14,7 @@
 				"mnemonic": "R",
 				"children":
 				[
-					{ "command": "restore_tab", "caption": "Reopen Closed Tab" },
+					{ "command": "restore_tab", "caption": "重新打开关闭的标签页" },
 					{ "command": "quick_open_repository", "caption": "选择…" },
 					{ "caption": "-" },
 					{ "command": "open_recent", "args": {"index": 0 } },
@@ -39,9 +39,9 @@
 			},
 			{ "caption": "-" },
 			{ "command": "new_window", "caption": "新建窗口" },
-			{ "command": "new_tab", "caption": "New Tab" },
+			{ "command": "new_tab", "caption": "新建标签页" },
 			{ "command": "close_window", "caption": "关闭窗口" },
-			{ "command": "close_tab", "caption": "Close Tab" },
+			{ "command": "close_tab", "caption": "关闭标签页" },
 			{ "caption": "-", "id": "exit" },
 			{ "command": "exit", "caption": "退出", "mnemonic": "x", "platform": "Windows" },
 			{ "command": "exit", "caption": "退出", "mnemonic": "Q", "platform": "Linux" },
@@ -60,7 +60,7 @@
 			{ "command": "copy", "caption": "复制", "mnemonic": "C" },
 			{ "command": "paste", "caption": "粘贴", "mnemonic": "P" },
 			{ "caption": "-" },
-			{ "command": "select_all" , "caption": "选择全部" },
+			{ "command": "select_all" , "caption": "全选" },
 			{ "caption": "-" },
 			{ "command": "wrap_lines", "caption": "Wrap Paragraph" },
 			{ "caption": "-", "id": "end" },
@@ -143,7 +143,7 @@
 				}
 			},
 			{
-				"caption": "Rebase分支…",
+				"caption": "变基分支…",
 				"command": "show_command_palette",
 				"args":
 				{
@@ -164,9 +164,9 @@
 		[
 			{ "command": "navigate_back", "caption": "后退" },
 			{ "command": "navigate_forward", "caption": "前进" },
-			{ "command": "navigate_to_child", "caption": "Go to Child" },
+			{ "command": "navigate_to_child", "caption": "跳转到 Child" },
 			{ "command": "navigate_to_parent", "caption": "跳转到 Parent" },
-			{ "command": "navigate_to_commit_message", "caption": "跳转到提交信息" },
+			{ "command": "navigate_to_commit_message", "caption": "跳转到提交说明" },
 			{ "command": "navigate_to_head", "caption": "跳转到 HEAD" },
 			{
 				"caption": "跳转到提交…",
@@ -185,19 +185,20 @@
 			},
 			{ "caption": "-" },
 			{
-				"caption": "Tabs",
+				"caption": "标签页",
 				"children":
 				[
 					{
-						"caption": "Next Repository Tab",
+						"caption": "下一个仓库页",
 						"command": "next_tab",
 					},
 					{
-						"caption": "Previous Repository Tab",
+						"caption": "上一个仓库页",
 						"command": "prev_tab",
 					},
 					{ "caption": "-" },
 					{
+						"caption": "跳转到位置栏",
 						"command": "select_sidebar_tab",
 						"args":
 						{
@@ -205,6 +206,7 @@
 						},
 					},
 					{
+						"caption": "跳转到提交栏",
 						"command": "select_sidebar_tab",
 						"args":
 						{
@@ -212,6 +214,7 @@
 						},
 					},
 					{
+						"caption": "跳转到文件栏",
 						"command": "select_sidebar_tab",
 						"args":
 						{
@@ -220,18 +223,18 @@
 					},
 					{ "caption": "-" },
 					{
-						"caption": "Next File Tab",
+						"caption": "下一个文件页",
 						"command": "next_file_tab",
 					},
 					{
-						"caption": "Previous File Tab",
+						"caption": "上一个文件页",
 						"command": "prev_file_tab",
 					},
 				]
 			},
 			{ "caption": "-" },
 			{ "command": "toggle_search", "caption": "查找" },
-			{ "command": "show_command_palette", "args": {"command": "blame"}, "caption": "Blame…" },
+			{ "command": "show_command_palette", "args": {"command": "blame"}, "caption": "追溯…" },
 			{ "command": "show_command_palette", "args": {"command": "file_history"}, "caption": "文件历史…" },
 			{ "caption": "-", "id": "end" },
 		]
@@ -243,8 +246,8 @@
 		"children":
 		[
 			{ "command": "show_command_palette", "caption": "命令面板…" },
-			{ "command": "刷新" },
-			{ "command": "toggle_console" },
+			{ "command": "refresh", "caption": "刷新" },
+			{ "command": "toggle_console", "caption": "显示/隐藏控制台" },
 			{ "caption": "-" },
 			{
 				"caption": "编辑 .gitattributes…",
@@ -370,7 +373,7 @@
 				},
 			},
 			{
-				"caption": "编辑提交信息设置…",
+				"caption": "编辑提交说明设置…",
 				"command": "open_in_editor",
 				"args":
 				{
@@ -379,7 +382,7 @@
 				},
 			},
 			{
-				"caption": "Edit Key Bindings…",
+				"caption": "编辑快捷键设置…",
 				"command": "open_in_editor",
 				"args":
 				{
@@ -397,13 +400,13 @@
 		"id": "help",
 		"children":
 		[
-			{ "command": "open_url", "args": {"url": "https://www.sublimemerge.com/docs/"}, "caption": "Documentation" },
+			{ "command": "open_url", "args": {"url": "https://www.sublimemerge.com/docs/"}, "caption": "官方文档" },
 			{ "command": "open_url", "args": {"url": "https://twitter.com/sublimehq/"}, "caption": "官方Twitter" },
 			{ "command": "open_url", "args": {"url": "https://github.com/sublime-china/sublime-merge-chinese"}, "caption": "汉化 by Sublime-China" },
 			{ "caption": "-" },
-			{ "command": "open_url", "args": {"url": "https://www.sublimehq.com/store/merge"}, "caption": "Buy License" },
-			{ "command": "show_license_window", "caption": "输入注册码" },
-			{ "command": "remove_license", "caption": "删除注册信息"},
+			{ "command": "open_url", "args": {"url": "https://www.sublimehq.com/store/merge"}, "caption": "购买许可证" },
+			{ "command": "show_license_window", "caption": "输入许可证" },
+			{ "command": "remove_license", "caption": "删除许可证"},
 			{ "caption": "-" },
 			{ "command": "update_check", "caption": "检查更新…", "platform": "!Linux" },
 			{ "command": "generate_debug_info", "caption": "调试信息" },

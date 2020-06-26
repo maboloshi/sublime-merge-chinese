@@ -1,6 +1,7 @@
 [
 	{
-		"description": "删除标签: '$tag_name'",
+		"caption": "删除标签: '$tag_name'",
+		"description": "Delete $tag_name",
 		"command": "delete_tag",
 		"args": {"ref": "$ref"}
 	},
