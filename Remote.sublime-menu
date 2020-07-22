@@ -13,4 +13,13 @@
 		"command": "delete_remote",
 		"args": {"remote": "$remote"}
 	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "rename_remote",
+			"args": { "remote": "$remote" },
+			"description": "Rename $remote",
+		},
+	},
 ]

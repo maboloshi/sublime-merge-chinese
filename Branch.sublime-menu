@@ -37,23 +37,23 @@
 	{ "caption": "-" },
 	{
 		"caption": "Git Flow: 完成",
-		"command": "gitflow_finish_feature",
-		"args": { "branch": "$branch" },
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_feature", "args": {"branch": "$branch"}},
 	},
 	{
 		"caption": "Git Flow: 完成",
-		"command": "gitflow_finish_bugfix",
-		"args": { "branch": "$branch" },
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_bugfix", "args": {"branch": "$branch"}},
 	},
 	{
 		"caption": "Git Flow: 完成",
-		"command": "gitflow_finish_release",
-		"args": { "branch": "$branch" },
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_release", "args": {"branch": "$branch"}},
 	},
 	{
 		"caption": "Git Flow: 完成",
-		"command": "gitflow_finish_hotfix",
-		"args": { "branch": "$branch" },
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_hotfix", "args": {"branch": "$branch"}},
 	},
 	{
 		"caption": "Git Flow: Rebase",
