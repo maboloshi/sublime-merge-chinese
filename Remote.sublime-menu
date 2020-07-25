@@ -19,7 +19,7 @@
 		{
 			"command": "rename_remote",
 			"args": { "remote": "$remote" },
-			"description": "Rename $remote",
+			"description": "重命名远程分支: '$remote'",
 		},
 	},
 ]
