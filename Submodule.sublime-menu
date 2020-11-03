@@ -2,8 +2,8 @@
 	{
 		"caption": "初始化子模块",
 		"description": "初始化子模块: '$submodule_name'",
-		"command": "initialize_submodule",
-		"args": {"submodule_path": "$submodule_path", "submodule_name": "$submodule_name"}
+		"command": "update_submodule",
+		"args": {"submodule_path": "$submodule_path", "initialize": true}
 	},
 	{
 		"caption": "打开子模块",
