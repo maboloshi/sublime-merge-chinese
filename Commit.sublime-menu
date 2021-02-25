@@ -99,15 +99,17 @@
 
 	},
 	{
+		//"caption": "隐藏 $branch 分支",
 		"command": "hide_all_commit_refs",
 		"args": {"commit": "$commit"}
 	},
 	{
+		//"caption": "隐藏除 $head 之外的所有分支",
 		"command": "hide_all_refs_except_refs_at_commit",
 		"args": {"commit": "$commit"}
 	},
 	{
-		"caption": "Show All Hidden Branches",
+		"caption": "显示所有隐藏的分支",
 		"command": "show_all_refs"
 	},
 	{
