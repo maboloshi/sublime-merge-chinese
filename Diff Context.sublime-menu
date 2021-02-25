@@ -12,6 +12,7 @@
 	{ "command": "toggle_ignore_diff_whitespace", "caption": "忽略/显示空白字符更改" },
 	{
 		"caption": "自动换行",
+		"id": "word_wrap",
 		"children":
 		[
 			{ "command": "set_word_wrap", "caption": "自动", "args": {"word_wrap": "auto" }, "checkbox": true },

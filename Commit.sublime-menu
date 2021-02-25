@@ -34,6 +34,7 @@
 	},
 	{
 		"caption": "编辑提交",
+		"id": "edit",
 		"children":
 		[
 			{
@@ -80,6 +81,7 @@
 	},
 	{
 		"caption": "Cherry Pick Commit",
+		"id": "cherry_pick",
 		"children":
 		[
 			{
@@ -97,12 +99,25 @@
 
 	},
 	{
+		"command": "hide_all_commit_refs",
+		"args": {"commit": "$commit"}
+	},
+	{
+		"command": "hide_all_refs_except_refs_at_commit",
+		"args": {"commit": "$commit"}
+	},
+	{
+		"caption": "Show All Hidden Branches",
+		"command": "show_all_refs"
+	},
+	{
 		"caption": "变基",
 		"command": "rebase_branch",
 		"args": {"commit": "$commit"}
 	},
 	{
 		"caption": "重置 $head_ref 到当前提交",
+		"id": "reset",
 		"children":
 		[
 			{

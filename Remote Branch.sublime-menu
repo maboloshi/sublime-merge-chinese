@@ -1,5 +1,6 @@
 [
 	{ "command": "create_branch", "args": {"from": "$branch"}, "caption": "创建分支…" },
+	{ "command": "checkout_local_branch", "args": {"remote_branch": "$branch"} },
 	{ "command": "checkout_branch", "args": {"branch": "$branch"}, "caption": "切换分支" },
 	{
 		"caption": "合并分支…",

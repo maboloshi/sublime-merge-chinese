@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Create Branch…",
+        "command": "show_command_palette", "args":
+        {
+            "command": "create_branch",
+            "args": { "prefix": "$branch" },
+        }
+    },
+    {
+        "caption": "Copy '$branch'",
+        "command": "copy_to_clipboard",
+        "args": { "text": "$branch" }
+    },
+    { "command": "hide_ref", "args": { "ref": "$ref" } },
+    { "command": "show_ref", "args": { "ref": "$ref" } },
+    { "command": "hide_all_refs_except", "args": { "ref": "$ref" } },
+    { "command": "show_all_refs", "args": { "ref": "$ref" } },
+]

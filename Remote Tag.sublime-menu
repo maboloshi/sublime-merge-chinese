@@ -1,0 +1,6 @@
+[
+    {
+        "command": "delete_tag_on_remote",
+        "args": {"ref": "$ref", "remote": "$remote"}
+    }
+]

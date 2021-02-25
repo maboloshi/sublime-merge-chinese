@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Clear All Stashes",
+        "command": "clear_stashes",
+    },
+]

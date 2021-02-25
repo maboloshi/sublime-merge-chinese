@@ -1,8 +1,12 @@
 [
 	{
-		"caption": "删除标签: $tag_name",
-		"description": "Delete $tag_name",
+		"caption": "Checkout Tag $tag_name",
+		"command": "checkout_branch",
+		"args": { "branch": "$ref" }
+	},
+	{
 		"command": "delete_tag",
+		"caption": "删除标签: $tag_name",
 		"args": {"ref": "$ref"}
 	},
 	{
