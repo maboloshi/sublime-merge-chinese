@@ -5,10 +5,10 @@
 		"id": "file",
 		"children":
 		[
-			{ "command": "prompt_new_repository", "caption": "新建仓库" },
-			{ "command": "display_clone_page", "caption": "克隆仓库…" },
-			{ "command": "prompt_open_repository", "caption": "打开仓库…" },
-			{ "command": "quick_switch_repository", "caption": "切换仓库…" },
+			{ "command": "prompt_new_repository", "caption": "新建资料库" },
+			{ "command": "display_clone_page", "caption": "克隆资料库…" },
+			{ "command": "prompt_open_repository", "caption": "打开资料库…" },
+			{ "command": "quick_switch_repository", "caption": "切换资料库…" },
 			{
 				"caption": "打开历史记录",
 				"mnemonic": "R",
@@ -67,7 +67,7 @@
 		]
 	},
 	{
-		"caption": "仓库",
+		"caption": "资料库",
 		"mnemonic": "R",
 		"id": "repository",
 		"children":
@@ -152,7 +152,7 @@
 			},
 			{ "caption": "-" },
 			{ "command": "open_dir", "args": {"dir": "$working_dir"}, "caption": "打开所在目录…" },
-			{ "command": "open_dir_in_sublime_text", "args": {"dir": "$working_dir"}, "caption": "在 Sublime Text 中打开所在目录…" },
+			{ "command": "open_dir_in_sublime_text", "args": {"dir": "$working_dir"}, "caption": "在 Sublime Text 中打开资料库…" },
 			{ "caption": "-", "id": "end" }
 		]
 	},
@@ -189,11 +189,11 @@
 				"children":
 				[
 					{
-						"caption": "下一个仓库页",
+						"caption": "下一个资料库页",
 						"command": "next_tab",
 					},
 					{
-						"caption": "上一个仓库页",
+						"caption": "上一个资料库页",
 						"command": "prev_tab",
 					},
 					{ "caption": "-" },

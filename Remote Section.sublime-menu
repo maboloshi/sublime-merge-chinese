@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "添加远程仓库…",
+		"caption": "添加远程资料库…",
 		"command": "show_command_palette", "args":
 		{
 			"command": "add_remote",

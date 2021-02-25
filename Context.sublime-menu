@@ -11,7 +11,7 @@
 	{ "caption": "-", "id": "selection" },
 	{ "command": "select_all", "caption": "全选" },
 	{ "caption": "-", "id": "repo_commands" },
-	{ "caption": "打开 Git 仓库…", "command": "sublime_merge_open_repo" },
+	{ "caption": "打开 Git 资料库…", "command": "sublime_merge_open_repo" },
 	{ "caption": "文件历史…", "command": "sublime_merge_file_history" },
 	{ "caption": "追溯行历史…", "command": "sublime_merge_line_history" },
 	{ "caption": "追溯文件…", "command": "sublime_merge_blame_file" },

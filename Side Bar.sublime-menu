@@ -6,7 +6,7 @@
 	{ "caption": "打开所在文件夹…", "command": "open_containing_folder", "args": {"files": []} },
 	{ "caption": "显示链接源", "command": "reveal_link_source", "args": {"dirs": []} },
 	{ "caption": "-", "id": "repo_commands" },
-	{ "caption": "打开 Git 仓库…", "command": "sublime_merge_open_repo", "args": {"paths": []}},
+	{ "caption": "打开 Git 资料库…", "command": "sublime_merge_open_repo", "args": {"paths": []}},
 	{ "caption": "文件历史…", "command": "sublime_merge_file_history", "args": {"files": []}},
 	{ "caption": "文件夹历史…", "command": "sublime_merge_folder_history", "args": {"paths": []}},
 	{ "caption": "追溯文件…", "command": "sublime_merge_blame_file", "args": {"files": []}},
