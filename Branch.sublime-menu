@@ -31,7 +31,7 @@
 		{
 			"command": "set_upstream",
 			"args": { "branch": "$branch" },
-			"description": "设置上游…"
+			"description": "关联远程分支…"
 		}
 	},
 	{ "caption": "-" },
