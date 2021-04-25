@@ -4,7 +4,7 @@
         "command": "revert_diff_hunk"
     },
     {
-        "caption": "Cherrypick Hunk",
+        "caption": "Cherry Pick Hunk",
         "command": "cherrypick_hunk"
     }
 ]
