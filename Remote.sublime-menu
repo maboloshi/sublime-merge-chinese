@@ -5,11 +5,11 @@
 		{
 			"command": "fetch",
 			"args": { "remote": "$remote" },
-			"description": "获取远程分支: $remote",
+			"description": "获取远程资源库: $remote",
 		},
 	},
 	{
-		"caption": "删除远程分支: $remote",
+		"caption": "删除远程资源库: $remote",
 		"command": "delete_remote",
 		"args": {"remote": "$remote"}
 	},
@@ -19,7 +19,7 @@
 		{
 			"command": "rename_remote",
 			"args": { "remote": "$remote" },
-			"description": "重命名远程分支: $remote",
+			"description": "重命名远程资源库: $remote",
 		},
 	},
 ]
