@@ -402,6 +402,7 @@
 		"children":
 		[
 			{ "command": "open_url", "args": {"url": "https://www.sublimemerge.com/docs/"}, "caption": "官方文档" },
+			{ "command": "open_url", "args": {"url": "https://github.com/sublimehq/sublime_merge/issues/new/choose"}, "caption": "Report a Bug" },
 			{ "command": "open_url", "args": {"url": "https://twitter.com/sublimehq/"}, "caption": "官方Twitter" },
 			{ "command": "open_url", "args": {"url": "https://github.com/sublime-china/sublime-merge-chinese"}, "caption": "汉化 by Sublime-China" },
 			{ "caption": "-" },
