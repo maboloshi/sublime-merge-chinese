@@ -28,12 +28,12 @@
 		{
 			"command": "update_remote_url",
 			"args": { "remote": "$remote" },
-			"description": "Update Remote URL",
+			"description": "更新远程资源库 URL",
 		},
 	},
 	{
+		"caption": "复制远程资源库 URL",
 		"command": "copy_to_clipboard",
-		"caption": "Copy Remote URL",
 		"args": { "text": "$remote_url" }
 	},
 ]
