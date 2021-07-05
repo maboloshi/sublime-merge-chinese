@@ -85,14 +85,11 @@
 		"children":
 		[
 			{
-				"caption": "Cherry Pick $short_commit",
 				"command": "cherry_pick",
-				"args": {"commit":"$commit", "mode":"commit"}
+				"args": {"mode":"commit"}
 			},
 			{
-				"caption": "Cherry Pick $short_commit --no-commit",
-				"command": "cherry_pick",
-				"args": {"commit":"$commit"}
+				"command": "cherry_pick"
 			},
 
 		]

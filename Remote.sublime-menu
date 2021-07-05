@@ -22,4 +22,18 @@
 			"description": "重命名远程资源库: $remote",
 		},
 	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "update_remote_url",
+			"args": { "remote": "$remote" },
+			"description": "Update Remote URL",
+		},
+	},
+	{
+		"command": "copy_to_clipboard",
+		"caption": "Copy Remote URL",
+		"args": { "text": "$remote_url" }
+	},
 ]

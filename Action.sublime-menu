@@ -15,6 +15,11 @@
 			"command": "merge_branch"
 		}
 	},
+	{
+		"caption": "Copy Repository Path",
+		"command": "copy_to_clipboard",
+		"args": {"text": "$working_dir"}
+	},
 	{ "caption": "-" },
 	{ "command": "git_undo", "mnemonic": "U" },
 	{ "command": "git_redo", "mnemonic": "R" },
