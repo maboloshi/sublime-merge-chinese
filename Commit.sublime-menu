@@ -74,26 +74,13 @@
 			},
 		]
 	},
+	{ "command": "revert_commit" },
 	{
-		"caption": "还原提交",
-		"command": "revert_commit",
-		"args": {"commit": "$commit"}
-	},
-	{
-		"caption": "Cherry Pick Commit",
-		"id": "cherry_pick",
-		"children":
-		[
-			{
-				"command": "cherry_pick",
-				"args": {"mode":"commit"}
-			},
-			{
-				"command": "cherry_pick"
-			},
-
-		]
-
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "cherry_pick",
+		}
 	},
 	{
 		//"caption": "隐藏 $branch 分支",

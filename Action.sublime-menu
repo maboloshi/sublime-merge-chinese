@@ -18,7 +18,7 @@
 	{
 		"caption": "复制存储库路径",
 		"command": "copy_to_clipboard",
-		"args": {"text": "$working_dir"}
+		"args": {"text": "$native_working_dir"}
 	},
 	{ "caption": "-" },
 	{ "command": "git_undo", "mnemonic": "U" },
