@@ -53,8 +53,8 @@
 		"id": "edit",
 		"children":
 		[
-			{ "command": "undo", "caption": "撤销", "mnemonic": "U" },
-			{ "command": "redo_or_repeat", "caption": "重做", "mnemonic": "R" },
+			{ "command": "undo", "mnemonic": "U" },
+			{ "command": "redo_or_repeat", "mnemonic": "R" },
 			{ "caption": "-" },
 			{ "command": "cut", "caption": "剪切", "mnemonic": "t" },
 			{ "command": "copy", "caption": "复制", "mnemonic": "C" },
@@ -63,7 +63,7 @@
 			{ "caption": "-" },
 			{ "command": "select_all" , "caption": "全选" },
 			{ "caption": "-" },
-			{ "command": "wrap_lines", "caption": "Wrap Paragraph" },
+			{ "command": "wrap_lines", "caption": "自动换行" },
 			{ "caption": "-", "id": "end" },
 		]
 	},
@@ -357,12 +357,12 @@
 		]
 	},
 	{
-		"caption": "偏好",
+		"caption": "首选项",
 		"mnemonic": "n",
 		"id": "preferences",
 		"children":
 		[
-			{ "command": "open_preferences", "caption": "偏好…" },
+			{ "command": "open_preferences", "caption": "设置…" },
 			{ "caption": "-" },
 			{
 				"caption": "编辑设置…",
@@ -403,7 +403,7 @@
 		[
 			{ "command": "open_url", "args": {"url": "https://www.sublimemerge.com/docs/"}, "caption": "官方文档" },
 			{ "command": "open_url", "args": {"url": "https://github.com/sublimehq/sublime_merge/issues/new/choose"}, "caption": "报告 Bug" },
-			{ "command": "open_url", "args": {"url": "https://twitter.com/sublimehq/"}, "caption": "官方Twitter" },
+			{ "command": "open_url", "args": {"url": "https://twitter.com/sublimehq/"}, "caption": "官方 Twitter" },
 			{ "command": "open_url", "args": {"url": "https://github.com/sublime-china/sublime-merge-chinese"}, "caption": "汉化 by Sublime-China" },
 			{ "caption": "-" },
 			{ "command": "open_url", "args": {"url": "https://www.sublimehq.com/store/merge"}, "caption": "购买许可证" },

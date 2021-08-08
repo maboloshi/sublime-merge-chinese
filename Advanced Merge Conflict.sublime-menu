@@ -1,11 +1,11 @@
 [
 	{
-		"caption": "Resolve Using Ours",
+		"caption": "使用我方解决冲突",
 		"command": "resolve_merge_conflict",
 		"args": {"path": "$path", "mode": "ours"}
 	},
 	{
-		"caption": "Resolve Using Theirs",
+		"caption": "使用对方解决冲突",
 		"command": "resolve_merge_conflict",
 		"args": {"path": "$path", "mode": "theirs"}
 	},

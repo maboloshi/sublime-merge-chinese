@@ -1,6 +1,6 @@
 [
 	{
-		"caption": "保存未跟踪的文件",
+		"caption": "保存而不出储藏",
 		"command": "save_without_staging",
 		"args": {}
 	},

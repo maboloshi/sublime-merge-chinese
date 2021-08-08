@@ -5,12 +5,12 @@
 		"args": {"mode": "commit --amend"}
 	},
 	{
-		"caption": "Commit without Commit Hooks (--no-verify)",
+		"caption": "不使用钩子提交 (--no-verify)",
 		"command": "commit",
 		"args": {"mode": "commit", "options": ["--no-verify"]}
 	},
 	{
-		"caption": "Amend Commit without Commit Hooks (--amend --no-verify)",
+		"caption": "不使用钩子修改提交 (--amend --no-verify)",
 		"command": "commit",
 		"args": {"mode": "commit --amend", "options": ["--no-verify"]}
 	},
