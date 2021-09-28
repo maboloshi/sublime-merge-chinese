@@ -34,6 +34,12 @@
 			"description": "关联远程分支…"
 		}
 	},
+	{
+		"caption": "Search…",
+		"command": "search",
+		"args": { "query": "branch:$branch " },
+	},
+
 	{ "caption": "-" },
 	{
 		"caption": "Git Flow: 完成",

@@ -410,7 +410,7 @@
 			{ "command": "show_license_window", "caption": "输入许可证" },
 			{ "command": "remove_license", "caption": "删除许可证"},
 			{ "caption": "-" },
-			{ "command": "update_check", "caption": "检查更新…", "platform": "!Linux" },
+			{ "command": "update_check", "caption": "检查更新…" },
 			{ "command": "generate_debug_info", "caption": "调试信息" },
 			{ "command": "show_changelog", "caption": "更新日志…" },
 			{ "command": "show_about_window", "caption": "关于 Sublime Merge", "mnemonic": "A" },
