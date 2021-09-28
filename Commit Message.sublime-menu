@@ -1,10 +1,10 @@
 [
-    { "command": "navigate_to_context_commit" },
-    { "command": "open_context_url" },
+    { "command": "navigate_to_context_commit", "caption": "跳转到提交", },
+    { "command": "open_context_url", "caption": "打开网址" },
     { "caption": "-" },
-    { "command": "cut" },
-    { "command": "copy" },
-    { "command": "paste" },
+    { "command": "cut", "caption": "剪切" },
+    { "command": "copy", "caption": "复制" },
+    { "command": "paste", "caption": "粘贴" },
     { "caption": "-" },
-    { "command": "select_all" }
+    { "command": "select_all", "caption": "全选" },
 ]

@@ -35,7 +35,7 @@
 		}
 	},
 	{
-		"caption": "Search…",
+		"caption": "搜索…",
 		"command": "search",
 		"args": { "query": "branch:$branch " },
 	},
