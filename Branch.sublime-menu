@@ -1,5 +1,5 @@
 [
-	{ "command": "checkout_branch", "args": { "branch": "$branch" }, "caption": "创建分支…" },
+	{ "command": "checkout_branch", "args": { "branch": "$branch" }, "caption": "切换分支…" },
 	{
 		"caption": "合并分支…",
 		"command": "merge_branch",
