@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Stage All",
+        "caption": "暂存全部",
         "command": "stage_all_unmerged",
     },
 ]

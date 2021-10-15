@@ -1,10 +1,10 @@
 [
     {
-        "caption": "Stage All",
+        "caption": "暂存全部",
         "command": "stage_all_modified",
     },
     {
-        "caption": "Discard All",
+        "caption": "丢弃全部",
         "command": "discard_all_modified",
     },
 ]

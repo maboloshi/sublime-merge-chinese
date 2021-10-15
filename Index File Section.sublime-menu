@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Unstage All",
+        "caption": "取消全部暂存",
         "command": "unstage_all",
     },
 ]
