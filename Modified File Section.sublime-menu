@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Stage All",
+        "command": "stage_all_modified",
+    },
+    {
+        "caption": "Discard All",
+        "command": "discard_all_modified",
+    },
+]

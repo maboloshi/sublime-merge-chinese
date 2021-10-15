@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Stage All",
+        "command": "stage_all_unmerged",
+    },
+]

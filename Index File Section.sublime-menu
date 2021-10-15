@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Unstage All",
+        "command": "unstage_all",
+    },
+]

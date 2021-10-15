@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Stage All",
+        "command": "stage_all_untracked",
+    },
+    {
+        "caption": "Delete All",
+        "command": "clean_working_dir",
+    },
+]
