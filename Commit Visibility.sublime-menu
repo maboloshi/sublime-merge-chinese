@@ -8,7 +8,7 @@
         "args": {"commit": "$commit"}
     },
     {
-        "caption": "Show All Hidden Branches",
+        "caption": "显示所有隐藏的分支",
         "command": "show_all_refs"
     },
 ]

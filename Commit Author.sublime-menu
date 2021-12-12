@@ -1,16 +1,16 @@
 [
     {
-        "caption": "Copy Author",
+        "caption": "复制作者",
         "command": "copy_to_clipboard",
         "args": {"text": "$author <$email>"}
     },
     {
-        "caption": "Copy Author Name",
+        "caption": "复制作者名",
         "command": "copy_to_clipboard",
         "args": {"text": "$author"}
     },
     {
-        "caption": "Copy Author Email",
+        "caption": "复制作者邮箱",
         "command": "copy_to_clipboard",
         "args": {"text": "$email"}
     },
