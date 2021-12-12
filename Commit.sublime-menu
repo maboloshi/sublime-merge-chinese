@@ -83,18 +83,6 @@
 		}
 	},
 	{
-		"command": "hide_all_commit_refs",
-		"args": {"commit": "$commit"}
-	},
-	{
-		"command": "hide_all_refs_except_refs_at_commit",
-		"args": {"commit": "$commit"}
-	},
-	{
-		"caption": "显示所有隐藏的分支",
-		"command": "show_all_refs"
-	},
-	{
 		"caption": "变基",
 		"command": "rebase_branch",
 		"args": {"commit": "$commit"}

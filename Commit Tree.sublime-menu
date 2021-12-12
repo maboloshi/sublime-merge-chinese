@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "Copy Tree",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$tree"}
+    }
+]

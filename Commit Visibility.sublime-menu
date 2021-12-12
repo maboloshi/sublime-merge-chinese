@@ -1,0 +1,14 @@
+[
+    {
+        "command": "hide_all_commit_refs",
+        "args": {"commit": "$commit"}
+    },
+    {
+        "command": "hide_all_refs_except_refs_at_commit",
+        "args": {"commit": "$commit"}
+    },
+    {
+        "caption": "Show All Hidden Branches",
+        "command": "show_all_refs"
+    },
+]

@@ -1,18 +1,22 @@
 [
 	{
 		"caption": "单栏",
-		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "tabs" }
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "tabs" },
+		"checkbox": true,
 	},
 		{
 		"caption": "双栏 (文件栏在左侧)",
-		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "commit_graph_as_column" }
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "commit_graph_as_column" },
+		"checkbox": true,
 	},
 	{
 		"caption": "双栏 (文件栏在右侧)",
-		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "locations_as_column" }
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "locations_as_column" },
+		"checkbox": true,
 	},
 	{
 		"caption": "三栏",
-		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "columns" }
+		"command": "set_preference", "args": { "setting": "side_bar_layout", "value": "columns" },
+		"checkbox": true,
 	},
 ]

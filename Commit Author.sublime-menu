@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "Copy Author",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$author <$email>"}
+    },
+    {
+        "caption": "Copy Author Name",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$author"}
+    },
+    {
+        "caption": "Copy Author Email",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$email"}
+    },
+]

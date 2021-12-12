@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "Copy Date",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$date"}
+    }
+]
