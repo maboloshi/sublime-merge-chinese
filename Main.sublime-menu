@@ -35,7 +35,7 @@
 					{ "command": "open_recent", "args": {"index": 15 } },
 					{ "caption": "-" },
 					{ "command": "clear_recent", "caption": "清除历史记录" },
-					{ "command": "clear_recent_missing", "caption": "Clear Missing" },
+					{ "command": "clear_recent_missing", "caption": "清除失效记录" },
 				]
 			},
 			{ "caption": "-" },
