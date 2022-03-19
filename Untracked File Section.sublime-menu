@@ -1,10 +1,10 @@
 [
     {
-        "caption": "暂存全部",
         "command": "stage_all_untracked",
+        "args": { "filtered": true },
     },
     {
-        "caption": "刪除全部",
         "command": "clean_working_dir",
+        "args": { "filtered": true },
     },
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "caption": "暂存全部",
         "command": "stage_all_modified",
+        "args": { "filtered": true, "include_unmerged": false },
     },
     {
-        "caption": "丢弃全部",
         "command": "discard_all_modified",
+        "args": { "filtered": true },
     },
 ]
