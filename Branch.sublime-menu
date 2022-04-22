@@ -31,11 +31,11 @@
 		{
 			"command": "set_upstream",
 			"args": { "branch": "$branch" },
-			"description": "关联远程分支…"
+			"description": "关联上游分支…"
 		}
 	},
 	{
-		"caption": "Unset Upstream",
+		"caption": "取消上游分支关联",
 		"command": "unset_upstream",
 		"args": { "branch": "$branch" }
 	},
