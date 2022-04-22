@@ -35,6 +35,11 @@
 		}
 	},
 	{
+		"caption": "Unset Upstream",
+		"command": "unset_upstream",
+		"args": { "branch": "$branch" }
+	},
+	{
 		"caption": "搜索…",
 		"command": "search",
 		"args": { "query": "branch:$branch " },
