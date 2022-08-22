@@ -111,6 +111,7 @@
 		]
 	},
     {
+        "caption": "创建补丁",
         "command": "create_patch",
         "args": { "from": "$last_selected_commit", "commit": "$commit" },
     },

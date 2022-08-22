@@ -25,7 +25,7 @@
 	{ "command": "git_redo", "mnemonic": "R" },
 	{ "caption": "-" },
 	{
-		"caption": "Open Containing Folder…",
+		"caption": "打开所在文件夹…",
 		"command": "open_dir",
 		"args": { "dir": "$working_dir" }
 	},

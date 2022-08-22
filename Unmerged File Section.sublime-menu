@@ -1,5 +1,6 @@
 [
     {
+        "caption": "丢弃所有未合并",
         "command": "stage_all_unmerged",
         "args": { "filtered": true },
     },

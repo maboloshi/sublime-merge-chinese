@@ -1,9 +1,10 @@
 [
 	{
-		"caption": "丢弃",
+		"caption": "丢弃文件",
 		"command": "unstage_file", "args": { "path": "$path" }
 	},
 	{
+        "caption": "创建补丁",
         "command": "create_patch",
         "args": { "path": "$path", "diff_against_index": true },
     },

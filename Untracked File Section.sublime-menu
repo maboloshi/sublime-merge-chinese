@@ -1,9 +1,11 @@
 [
     {
+        "caption": "丢弃所有未跟踪",
         "command": "stage_all_untracked",
         "args": { "filtered": true },
     },
     {
+        "caption": "清理工作目录",
         "command": "clean_working_dir",
         "args": { "filtered": true },
     },

@@ -4,7 +4,7 @@
         "command": "revert_diff_hunk"
     },
     {
-        "caption": "Cherry Pick 区块",
+        "caption": "拣选区块",
         "command": "cherrypick_hunk"
     }
 ]

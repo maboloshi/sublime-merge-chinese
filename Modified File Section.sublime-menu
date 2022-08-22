@@ -1,13 +1,16 @@
 [
     {
+        "caption": "暂存所有修改",
         "command": "stage_all_modified",
         "args": { "filtered": true, "include_unmerged": false },
     },
     {
+        "caption": "丢弃所有修改",
         "command": "discard_all_modified",
         "args": { "filtered": true },
     },
     {
+        "caption": "创建补丁",
         "command": "create_patch",
     },
 ]
