@@ -25,6 +25,11 @@
 	{ "command": "git_redo", "mnemonic": "R" },
 	{ "caption": "-" },
 	{
+		"caption": "Open Containing Folder…",
+		"command": "open_dir",
+		"args": { "dir": "$working_dir" }
+	},
+	{
 		"caption": "在 Sublime Text 中打开资料库…",
 		"command": "open_dir_in_sublime_text",
 		"args": { "dir": "$working_dir" }

@@ -3,4 +3,8 @@
 		"caption": "丢弃",
 		"command": "unstage_file", "args": { "path": "$path" }
 	},
+	{
+        "command": "create_patch",
+        "args": { "path": "$path", "diff_against_index": true },
+    },
 ]

@@ -81,6 +81,8 @@
 			{ "command": "show_command_palette", "args": { "command": "stash" }, "caption": "储藏…" },
 			{ "command": "pop_stash", "caption": "取回储藏" },
 			{ "caption": "-" },
+			{ "command": "apply_patch" },
+			{ "caption": "-" },
 			{ "command": "show_command_palette", "args": { "command": "pull" }, "caption": "拉取…" },
 			{
 				"caption": "推送…",

@@ -1,0 +1,14 @@
+[
+    {
+        "command": "revert_file",
+        "args": { "from_path": "$from_path", "to_path": "$to_path", "from": "$from", "to": "$to" },
+    },
+    {
+        "command": "cherry_pick_file",
+        "args": { "from_path": "$from_path", "to_path": "$to_path", "from": "$from", "to": "$to" },
+    },
+    {
+        "command": "create_patch",
+        "args": { "from": "$last_selected_commit", "commit": "$commit", "path": "$path" },
+    },
+]

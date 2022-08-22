@@ -7,4 +7,7 @@
         "command": "discard_all_modified",
         "args": { "filtered": true },
     },
+    {
+        "command": "create_patch",
+    },
 ]

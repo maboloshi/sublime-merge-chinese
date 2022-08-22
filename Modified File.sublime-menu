@@ -7,4 +7,8 @@
 		"caption": "丢弃",
 		"command": "discard_file", "args": { "path": "$path" },
 	},
+	{
+        "command": "create_patch",
+        "args": { "path": "$path" },
+    },
 ]

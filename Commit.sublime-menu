@@ -110,5 +110,9 @@
 			},
 		]
 	},
+    {
+        "command": "create_patch",
+        "args": { "from": "$last_selected_commit", "commit": "$commit" },
+    },
 	{ "caption": "-", "id": "end" }
 ]

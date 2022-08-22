@@ -1,4 +1,9 @@
 [
+	{
+		"caption": "Open in Editor…",
+		"command": "open_in_editor",
+		"args": { "path": "$working_dir/$path" }
+	},
 	{ "command": "copy", "caption": "复制" },
 	{ "command": "select_all", "caption": "全选" },
 	{ "caption": "-" },
