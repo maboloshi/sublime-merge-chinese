@@ -18,5 +18,10 @@
 			"description": "推送标签: $tag_name",
 		},
 	},
+	{
+		"caption": "Copy '$tag_name'",
+		"command": "copy_to_clipboard",
+		"args": { "text": "$tag_name" }
+	},
 	{ "caption": "-", "id": "end" }
 ]
