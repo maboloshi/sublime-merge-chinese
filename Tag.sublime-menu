@@ -19,7 +19,7 @@
 		},
 	},
 	{
-		"caption": "Copy '$tag_name'",
+		"caption": "复制标签名: '$tag_name'",
 		"command": "copy_to_clipboard",
 		"args": { "text": "$tag_name" }
 	},
