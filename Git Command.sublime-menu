@@ -1,0 +1,6 @@
+[
+    {
+        "command": "rerun_command",
+        "args": { "previous_command_index": "$command_index" },
+    },
+]

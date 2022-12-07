@@ -5,6 +5,6 @@
 	},
 	{
 		"caption": "暂存文件",
-		"command": "stage_file", "args": { "path": "$path" },
+		"command": "stage_selected_files",
 	},
 ]

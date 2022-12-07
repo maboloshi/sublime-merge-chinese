@@ -1,11 +1,11 @@
 [
 	{
 		"caption": "暂存文件",
-		"command": "stage_file", "args": { "path": "$path" },
+		"command": "stage_selected_files",
 	},
 	{
 		"caption": "丢弃文件",
-		"command": "discard_file", "args": { "path": "$path" },
+		"command": "discard_selected_files",
 	},
 	{
         "caption": "创建补丁",

@@ -1,7 +1,7 @@
 [
 	{
 		"caption": "丢弃文件",
-		"command": "unstage_file", "args": { "path": "$path" }
+		"command": "unstage_selected_files",
 	},
 	{
         "caption": "创建补丁",
