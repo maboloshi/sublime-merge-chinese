@@ -20,4 +20,10 @@
 			{ "command": "set_word_wrap", "caption": "禁用", "args": {"word_wrap": false }, "checkbox": true },
 		],
 	},
+	{ "caption": "-" },
+	{
+		"caption": "Edit Staged Contents…",
+		"command": "edit_staged_file",
+		"args": { "staged": "$staged", "path": "$path", "line": "$line", "col": "$col" }
+	},
 ]

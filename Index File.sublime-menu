@@ -8,4 +8,9 @@
         "command": "create_patch",
         "args": { "path": "$path", "diff_against_index": true },
     },
+	{
+		"caption": "Edit Staged File…",
+		"command": "edit_staged_file",
+		"args": { "staged": "$staged", "path": "$path" }
+	},
 ]
