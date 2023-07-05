@@ -22,7 +22,7 @@
 	},
 	{ "caption": "-" },
 	{
-		"caption": "Edit Staged Contents…",
+		"caption": "编辑暂存内容…",
 		"command": "edit_staged_file",
 		"args": { "staged": "$staged", "path": "$path", "line": "$line", "col": "$col" }
 	},

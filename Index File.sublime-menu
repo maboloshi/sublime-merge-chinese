@@ -9,7 +9,7 @@
         "args": { "path": "$path", "diff_against_index": true },
     },
 	{
-		"caption": "Edit Staged File…",
+		"caption": "编辑暂存文件…",
 		"command": "edit_staged_file",
 		"args": { "staged": "$staged", "path": "$path" }
 	},
