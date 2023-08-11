@@ -8,6 +8,7 @@
 		"command": "delete_selected_files",
 	},
 	{
+		"caption": "Git LFS 文件跟踪",
 		"command": "lfs_track_file",
 		"args": { "path": "$path" },
 	},
