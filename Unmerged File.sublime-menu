@@ -7,4 +7,8 @@
 		"caption": "暂存文件",
 		"command": "stage_selected_files",
 	},
+	{
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
 ]

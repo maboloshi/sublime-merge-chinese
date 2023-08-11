@@ -8,6 +8,10 @@
 		"command": "discard_selected_files",
 	},
 	{
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
+	{
         "caption": "创建补丁",
         "command": "create_patch",
         "args": { "path": "$path" },

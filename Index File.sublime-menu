@@ -13,4 +13,8 @@
 		"command": "edit_staged_file",
 		"args": { "staged": "$staged", "path": "$path" }
 	},
+	{
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
 ]

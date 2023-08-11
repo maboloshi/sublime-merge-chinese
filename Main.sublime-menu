@@ -170,6 +170,7 @@
 			{ "command": "navigate_forward", "caption": "前进" },
 			{ "command": "navigate_to_child", "caption": "跳转到 Child" },
 			{ "command": "navigate_to_parent", "caption": "跳转到 Parent" },
+			{ "command": "navigate_to_parent", "args": {"parent": 1}, "caption": "Go to Second Parent" },
 			{ "command": "navigate_to_commit_message", "caption": "跳转到提交说明" },
 			{ "command": "navigate_to_head", "caption": "跳转到 HEAD" },
 			{
