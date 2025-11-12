@@ -12,7 +12,7 @@
 	{
 		"caption": "Git LFS 文件跟踪",
 		"command": "lfs_track_file",
-		"args": { "path": "$path" },
+		"args": { "pattern": "$path" },
 	},
 	{
 		"caption": "创建补丁",

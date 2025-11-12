@@ -5,7 +5,7 @@
 	},
 	{
 		"caption": "追溯",
-		"command": "blame", "args": { "path": "$path" }
+		"command": "blame", "args": { "path": "$path", "from": "$commit" }
 	},
 	{ "caption": "-" },
 	{

@@ -1,0 +1,8 @@
+[
+	{
+		"command": "stage_selected_files",
+	},
+	{
+		"command": "delete_selected_files",
+	},
+]
