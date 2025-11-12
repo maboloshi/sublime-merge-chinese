@@ -1,8 +1,10 @@
 [
 	{
+		"caption": "暂存所选文件",
 		"command": "stage_selected_files",
 	},
 	{
+		"caption": "丢弃所选文件",
 		"command": "discard_selected_files",
 	},
 ]

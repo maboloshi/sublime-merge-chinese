@@ -25,7 +25,7 @@
 		"caption": "-",
 	},
 	{
-		"caption": "Create",
+		"caption": "创建",
 		"id": "create",
 		"children":
 		[
@@ -72,25 +72,25 @@
 				"command": "squash_commit",
 			},
 			{
-				"caption": "压缩选定的提交",
+				"caption": "压缩所选提交",
 				"command": "squash_commits",
 			},
 			{
-				"caption": "压缩选定的提交, 并忽略新提交说明 (fixup)",
+				"caption": "压缩所选提交，忽略新消息（修复）",
 				"command": "fixup_commits",
 			},
 			{
-				"caption": "向上移动提交",
+				"caption": "上移提交",
 				"command": "move_commit",
 				"args": { "commit": "$commit", "down": false },
 			},
 			{
-				"caption": "向下移动提交",
+				"caption": "下移提交",
 				"command": "move_commit",
 				"args": { "commit": "$commit", "down": true },
 			},
 			{
-				"caption": "删除提交",
+				"caption": "丢弃提交",
 				"command": "drop_commits",
 			},
 		]
@@ -101,13 +101,12 @@
 		"children":
 		[
 			{
-				"caption": "软重置 - 保留索引和工作目录，差异将显示为暂存",
+				"caption": "软重置 - 保留索引和工作目录，差异将显示为已暂存",
 				"command": "reset",
 				"args": {"commit": "$commit", "mode": "soft"}
 			},
 			{
-
-				"caption": "混合 (默认) - 保持工作目录，差异将显示为修改",
+				"caption": "混合（默认）- 保留工作目录，差异将显示为修改",
 				"command": "reset",
 				"args": {"commit": "$commit", "mode": "mixed"}
 			},

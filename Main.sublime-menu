@@ -157,7 +157,7 @@
 			{ "caption": "-" },
 			{ "command": "open_dir", "args": {"dir": "$working_dir"}, "caption": "打开所在目录…" },
 			{ "command": "open_dir_in_sublime_text", "args": {"dir": "$working_dir"}, "caption": "在 Sublime Text 中打开资料库…" },
-			{ "command": "open_terminal", "args": {"dir": "$working_dir"}, "caption": "Open in Terminal…" },
+			{ "command": "open_terminal", "args": {"dir": "$working_dir"}, "caption": "在终端中打开…" },
 			{ "caption": "-", "id": "end" }
 		]
 	},
@@ -228,6 +228,7 @@
 						},
 					},
 					{
+						"caption": "选择提交详情",
 						"command": "select_commit_details",
 					},
 					{ "caption": "-" },
@@ -421,7 +422,7 @@
 			{ "command": "update_check", "caption": "检查更新…" },
 			{ "command": "generate_debug_info", "caption": "调试信息" },
 			{ "command": "show_changelog", "caption": "更新日志…" },
-			{ "command": "show_attribution", "caption": "Licenses and Attribution…" },
+			{ "command": "show_attribution", "caption": "第三方许可与归属…" },
 			{ "command": "show_about_window", "caption": "关于 Sublime Merge", "mnemonic": "A" },
 		]
 	}

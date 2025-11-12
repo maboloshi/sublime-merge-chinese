@@ -5,7 +5,7 @@
 		{
 			"command": "fetch",
 			"args": { "remote": "$remote" },
-			"description": "获取远程资源库: $remote",
+			"description": "拉取远程资源库: $remote",
 		},
 	},
 	{
@@ -32,8 +32,8 @@
 		},
 	},
 	{
-		"caption": "复制远程资源库 URL",
 		"command": "copy_to_clipboard",
+		"caption": "复制远程资源库 URL",
 		"args": { "text": "$remote_url" }
 	},
 ]

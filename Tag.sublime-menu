@@ -5,7 +5,7 @@
 		{
 			"command": "create_branch_from_tag",
 			"args": { "from": "$ref" },
-			"description": "Create Branch from Tag $tag_name…",
+			"description": "从标签 $tag_name 创建分支…",
 		},
 	},
 	{
